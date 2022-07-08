@@ -32,7 +32,7 @@ namespace BookStoreApp.API.Data
         {
             modelBuilder.Entity<Author>(entity =>
             {
-                entity.Property(e => e.FisrstName).HasMaxLength(50);
+                entity.Property(e => e.FirstName).HasMaxLength(50);
 
                 entity.Property(e => e.LastName).HasMaxLength(50);
             });
